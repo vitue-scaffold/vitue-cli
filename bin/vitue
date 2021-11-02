@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+let program = require('commander');
+let figlet = require('figlet');
+let colors = require('colors');
+
+if (process.argv.length < 3) {
+  console.log(figlet.textSync("vitue").white);
+  console.log(' ==========================================='.white);
+}
+
+program
+  .version(require('../package').version)
+  .usage('<command> [options]')
+  .command('init', 'initialize project')
+  .parse(process.argv);
