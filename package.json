@@ -1,6 +1,6 @@
 {
   "name": "@vitue/cli",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "A CLI for scaffolding starter projects.",
   "main": "index.js",
   "bin": {
