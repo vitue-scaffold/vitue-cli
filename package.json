@@ -10,6 +10,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "release": "./script/release.sh"
+  },
   "dependencies": {
     "async": "^2.0.0-rc.2",
     "colors": "^1.1.2",
